@@ -2,6 +2,15 @@ import streamlit as st
 import numpy as np
 import time
 import matplotlib.pyplot as plt
+
+st.markdown("""
+<style>
+div[data-testid="stText"] {
+    font-family: monospace !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 st.markdown("""
 <style>
 * {
