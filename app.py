@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.markdown("""
 <style>
-div[data-testid="stText"] {
+pre, code {
     font-family: monospace !important;
 }
 </style>
