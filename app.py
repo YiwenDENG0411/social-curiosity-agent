@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.markdown("""
 <style>
 * {
-    font-family: "SFMono-Regular", monospace;
+    font-family: monospace !important;
 }
 </style>
 """, unsafe_allow_html=True)
