@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.markdown("""
 <style>
 * {
-    font-family: monospace !important;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";;
 }
 </style>
 """, unsafe_allow_html=True)
