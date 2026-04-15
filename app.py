@@ -2,6 +2,13 @@ import streamlit as st
 import numpy as np
 import time
 import matplotlib.pyplot as plt
+st.markdown("""
+<style>
+* {
+    font-family: monospace !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 st.set_page_config(layout="wide")
 st.title("🧠 Social Curiosity Agent (Tunable)")
@@ -192,12 +199,7 @@ if start:
 
             grid_display += "\n"
 
-        ## grid_placeholder.text(grid_display)
-        
-        st.markdown(
-            f"<pre style='font-family: monospace; font-size:18px; line-height:1.1'>{grid_display}</pre>",
-            unsafe_allow_html=True
-        )
+        grid_placeholder.text(grid_display)
 
         info_placeholder.write(
             f"Space PE: {st.session_state.pe_space_hist[-1]:.2f} | "
