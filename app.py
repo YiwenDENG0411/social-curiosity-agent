@@ -3,13 +3,13 @@ import numpy as np
 import time
 import matplotlib.pyplot as plt
 
-st.markdown("""
-<style>
-html, body, [class*="css"]  {
-    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif !important;
-}
-</style>
-""", unsafe_allow_html=True)
+#st.markdown("""
+#<style>
+#* {
+#    font-family: monospace !important;
+#}
+#</style>
+#""", unsafe_allow_html=True)
 
 st.set_page_config(layout="wide")
 st.title("🧠 Social Curiosity Agent (Tunable)")
