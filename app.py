@@ -192,7 +192,12 @@ if start:
 
             grid_display += "\n"
 
-        grid_placeholder.text(grid_display)
+        ## grid_placeholder.text(grid_display)
+        
+        st.markdown(
+            f"<pre style='font-family: monospace; font-size:18px; line-height:1.1'>{grid_display}</pre>",
+            unsafe_allow_html=True
+        )
 
         info_placeholder.write(
             f"Space PE: {st.session_state.pe_space_hist[-1]:.2f} | "
